@@ -16,8 +16,8 @@ public class MKubus {
         BujurSangkar bs = new BujurSangkar(4.0);
         Kubus kubus = new Kubus(bs);
 
-        System.out.println("Luas alas kubus adalah " + kubus.hitungLuasAlas());
-        System.out.println("Luas Volume Kubus adalah " + kubus.hitungVolume());
+        System.out.println("Luas Permukaan Kubus dengan panjang sisi " + bs.getPanjangSisi()+" satuan: "+kubus.hitungLuasAlas());
+        System.out.println("Volume Kubus dengan panjang sisi " + bs.getPanjangSisi() + " satuan : "+ kubus.hitungVolume() );
 
     }
 }
